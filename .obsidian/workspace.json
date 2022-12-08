@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "ad7a1774f1f11016",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8c91093a2eb9cdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce27f9dc936f5e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/basic/BootProcess.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a6c3f73f0f4112b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kernel/device-Driver-V-kernel-Modules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40b8e6366b081d3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "198965cc46b76300",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91cd0df6db8edef4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20747550ffbc8687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "550b170b57f29b73",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fcecadcefe69b117",
+    "type": "split",
+    "children": [
+      {
+        "id": "def5d8c33d396316",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bfe90edff0efb35",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "kernel/device-Driver-V-kernel-Modules.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b504debe552eb3a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "kernel/device-Driver-V-kernel-Modules.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9107ba613436d1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "585c51b5278ab6dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "kernel/device-Driver-V-kernel-Modules.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0a6c3f73f0f4112b",
+  "lastOpenFiles": [
+    "kernel/ModuleTypes.md",
+    "kernel/device-Driver-V-kernel-Modules.md",
+    "notes/basic/BootProcess.md"
+  ]
+}
