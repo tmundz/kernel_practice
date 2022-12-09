@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/basic/BootProcess.md",
+                "file": "notes/Boot/BootProcess.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kernel/device-Driver-V-kernel-Modules.md",
+                "file": "notes/Boot/BootProcess.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "715c1da439e19cef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/kernel/RealMode.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kernel/device-Driver-V-kernel-Modules.md",
+                "file": "notes/kernel/RealMode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kernel/device-Driver-V-kernel-Modules.md",
+                "file": "notes/kernel/RealMode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kernel/device-Driver-V-kernel-Modules.md"
+                "file": "notes/kernel/RealMode.md"
               }
             }
           }
@@ -149,10 +161,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0a6c3f73f0f4112b",
+  "active": "715c1da439e19cef",
   "lastOpenFiles": [
-    "kernel/ModuleTypes.md",
-    "kernel/device-Driver-V-kernel-Modules.md",
-    "notes/basic/BootProcess.md"
+    "notes/Boot/BootProcess.md",
+    "notes/kernel/device-Driver-V-kernel-Modules.md",
+    "notes/kernel/ModuleTypes.md"
   ]
 }
