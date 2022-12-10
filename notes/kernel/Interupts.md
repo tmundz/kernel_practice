@@ -24,7 +24,7 @@ files do not exist
 date is writtent in sectors
 data is read and written in sectors typically 512 bytes
 
-CHS is for reading disks secotrs would use head track and sector not common and complicated
+CHS is for reading disks sectors would use head track and sector not common and complicated
 
 LBA is the modern way opf reading form a hard disk, rathjer than specify head, track and sector we specify a num that starts from zero 
 LBA allows the allows the reading block of the disk from very large files

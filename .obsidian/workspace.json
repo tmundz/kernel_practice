@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a8c91093a2eb9cdf",
+        "id": "24101cab3864342d",
         "type": "tabs",
         "children": [
           {
-            "id": "ce27f9dc936f5e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Boot/BootProcess.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a6c3f73f0f4112b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Boot/BootProcess.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "715c1da439e19cef",
+            "id": "c458fe7b9a2c6953",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,19 +20,19 @@
             }
           },
           {
-            "id": "2282ef8bb7fc061c",
+            "id": "48b17bf005198595",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/kernel/Interupts.md",
+                "file": "notes/kernel/Protected Mode.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/kernel/Interupts.md",
+                "file": "notes/kernel/Protected Mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/kernel/Interupts.md",
+                "file": "notes/kernel/Protected Mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/kernel/Interupts.md"
+                "file": "notes/kernel/Protected Mode.md"
               }
             }
           }
@@ -173,11 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "91cd0df6db8edef4",
+  "active": "48b17bf005198595",
   "lastOpenFiles": [
+    "notes/kernel/Pasted image 20221209233234.png",
     "notes/kernel/RealMode.md",
     "notes/Boot/BootProcess.md",
-    "notes/kernel/device-Driver-V-kernel-Modules.md",
-    "notes/kernel/ModuleTypes.md"
+    "notes/kernel/Pasted image 20221209232924.png",
+    "notes/kernel/ModuleTypes.md",
+    "notes/kernel/Pasted image 20221209233304.png",
+    "notes/kernel/Pasted image 20221209233031.png",
+    "notes/kernel/Protected Mode.md",
+    "notes/kernel/Interupts.md",
+    "notes/kernel/device-Driver-V-kernel-Modules.md"
   ]
 }
