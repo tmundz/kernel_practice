@@ -30,9 +30,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a4a07243778f2158",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/kernel/Protected Mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/kernel/Protected Mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "notes/kernel/Protected Mode.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,17 +153,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "48b17bf005198595",
+  "active": "a4a07243778f2158",
   "lastOpenFiles": [
+    "Pasted image 20221211203633.png",
+    "Untitled.md",
+    "notes/kernel/Protected Mode.md",
     "notes/kernel/Pasted image 20221209233234.png",
     "notes/kernel/RealMode.md",
     "notes/Boot/BootProcess.md",
     "notes/kernel/Pasted image 20221209232924.png",
     "notes/kernel/ModuleTypes.md",
     "notes/kernel/Pasted image 20221209233304.png",
-    "notes/kernel/Pasted image 20221209233031.png",
-    "notes/kernel/Protected Mode.md",
-    "notes/kernel/Interupts.md",
-    "notes/kernel/device-Driver-V-kernel-Modules.md"
+    "notes/kernel/Pasted image 20221209233031.png"
   ]
 }
