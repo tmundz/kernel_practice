@@ -27,3 +27,6 @@ we get 4 GB of memorty which allows 32-bit instructions
 debugging 
 
 target remote | qemu-system-x86_64 -hda ./boot.bin -S -gdb stdio
+
+gdb add symbol file when using gdb
+add-symbol-file build/kernelfull.o 0x100000
