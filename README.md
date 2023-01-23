@@ -5,6 +5,7 @@ So I am creating this repo to document my notes along with my actual code.
 
 ## Required 
 qemu-system-x86_64
+
 [Cross-Compiler](https://wiki.osdev.org/GCC_Cross-Compiler)  
 
 
