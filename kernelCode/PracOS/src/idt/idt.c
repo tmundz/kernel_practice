@@ -43,6 +43,8 @@ void idt_init() {
     for (int i = 0; i < PRACOS_TOTAL_INTERRUPTS; i++) {
         idt_set(i, no_interrupt);
     }
+    idt_set(0, idt_zero);
+    idt_set(0x20, int21h);
     
     idt_load(&idtr_descriptor);
 
