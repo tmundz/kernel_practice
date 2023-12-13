@@ -1,6 +1,6 @@
 #include "kheap.h"
-#include "../../config.h"
-#include "../../kernel.h"
+#include "config.h"
+#include "kernel.h"
 #include "heap.h"
 struct heap kernel_heap;
 // 1024*1024 = 1Mb*100/4096 =
@@ -17,4 +17,8 @@ void kheap_init() {
   if (res < 0) {
     print("Failed to create heap\n");
   }
+}
+
+void* kmalloc(size_t size) {
+    return heap_malloc(&kernel_heap, size);
 }
