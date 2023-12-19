@@ -123,6 +123,22 @@ out:
     return address;
 }
 
+int heap_address_to_block(struct heap* heap, void* address) {
+    return ((int)(address - heap-> saddr)) /PRACOS_HEAP_BLOCK_SIZE;
+}
+
+void heap_mark_blocks_free(struct heap* heap, int starting_block) {
+    struct heap_table * table = heap->table;
+    // loop through every entry to free what needs to be free
+    for (int i = starting_block; i < (int)table->total; i++) {
+        HEAP_BLOCK_TABLE_ENTRY entry = table-> entries[i];
+        table->entries[i] = HEAP_BLOCK_TABLE_ENTRY_FREE;
+        if (!(entry & HEAP_BLOCK_HAS_NEXT)) {
+            break;
+        }
+    }
+}
+
 void *heap_malloc(struct heap *heap, size_t size) {
   size_t aligned_size = heap_align_value_to_upper(size);
   int32_t total_blocks = aligned_size / PRACOS_HEAP_BLOCK_SIZE;
