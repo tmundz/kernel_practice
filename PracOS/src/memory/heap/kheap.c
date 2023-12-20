@@ -2,6 +2,8 @@
 #include "config.h"
 #include "kernel.h"
 #include "heap.h"
+#include "memory/memory.h"
+
 struct heap kernel_heap;
 // 1024*1024 = 1Mb*100/4096 =
 struct heap_table kernel_heap_table;
@@ -17,6 +19,15 @@ void kheap_init() {
   if (res < 0) {
     print("Failed to create heap\n");
   }
+}
+
+void* kzalloc(size_t size) {
+    void * ptr = kmalloc(size);
+    if (!ptr)
+        return 0;
+
+    memset(ptr, 0x00, size);
+    return ptr;
 }
 
 void* kmalloc(size_t size) {
