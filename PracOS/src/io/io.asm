@@ -47,4 +47,4 @@ outw:
     out dx, ax
 
     pop ebp
-    r
+    ret
