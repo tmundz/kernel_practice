@@ -4,6 +4,7 @@
 #include "idt/idt.h"
 #include "memory/heap/kheap.h"
 #include "memory/paging/paging.h"
+#include "disk/disk.h"
 
 uint16_t* video_mem = 0;
 uint16_t terminal_row = 0;
@@ -66,6 +67,9 @@ void kernel_main() {
      //initialize the heap
     kheap_init();
 
+    //search and initialize disks
+    disk_search_and_init();
+
     //initialize interrupt descriptor table
     idt_init();
 
@@ -82,6 +86,7 @@ void kernel_main() {
     kernel_chunk = paging_new_4gb(PAGING_IS_WRITEABLE | PAGING_IS_PRESENT | PAGING_ACCESS_FROM_ALL);
     //switch
     paging_switch(paging_4gb_chunk_get_directory(kernel_chunk));
+
     // enable paging
     enable_paging();
 
