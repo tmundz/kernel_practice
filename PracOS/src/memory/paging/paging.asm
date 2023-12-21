@@ -16,10 +16,11 @@ paging_load_directory:
 
 enable_paging:
     push ebp
-    mov ebp, esp #move stack pointer
-    mov eax, cr0 #move cr0 to eax as cr0 cannot be changed directly
+    mov ebp, esp ;move stack pointer
+    mov eax, cr0 ;move cr0 to eax as cr0 cannot be changed directly
     or eax, 0x80000000
-    move cr0, eax #move eax back to cr0
+    mov cr0, eax ;move eax back to cr0
     pop ebp
     ret
+
 

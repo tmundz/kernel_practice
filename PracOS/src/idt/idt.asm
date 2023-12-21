@@ -17,6 +17,7 @@ disable_interrupts:
     cli
     ret
 
+
 idt_load:
     push ebp
     mov ebp, esp
