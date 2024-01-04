@@ -3,6 +3,7 @@
 
 #define VGA_WIDTH 80
 #define VGA_HEIGHT 20
+#define PRACOS_MAX_PATH 108
 
 
 void kernel_main();
