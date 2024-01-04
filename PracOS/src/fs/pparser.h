@@ -13,6 +13,14 @@ struct path_part {
     struct path_part* next;
 };
 
+/*
+function to parse the path for the filesystem
+*/
+struct path_root* pathparser_parse(const char* path, const char* cur_dir_path);
 
+/*
+frees memory the the pathparser was using
+*/
+void pathparser_free(struct path_root* root);
 
 #endif
